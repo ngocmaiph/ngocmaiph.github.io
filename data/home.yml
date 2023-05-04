@@ -1,0 +1,312 @@
+# Sections content configuration file
+##
+### use navigation.yml file to re-order, delete or add section of each card
+### here you can find all content in all pre-build sections
+
+### Hero [ hero-image ]
+hero:
+  enable: 1
+  image: "images/about/profile_photo.jpg"
+  image_alt: "NgocMai"
+  title: "<b>Mai</b> Phạm"
+  before_title: "Hello, <b>my name is</b>"
+  after_title: "I am <strong>a Freelancer aka. HR Administrator</strong>"
+  description: "I am a passionate Freelancer and HR Administrator. I love what I am doing and cannot wait to see what the future holds."
+  button1:
+    label: "Download CV"
+    link: "https://drive.google.com/file/d/14JocN_awDy538rQf4EIvJg2Eux0bGvVz/view?usp=share_link"
+  button2:
+    label: "My Skills"
+    link: "#skills-section"
+  bg_title: "HR Admistrator"
+  info:
+    - num: "8 <strong>+</strong>"
+      value: "Years of <strong>Experience</strong>"
+
+    # - num: "330"
+    #   value: "Completed <strong>Projects</strong>"
+
+### Services [ services ]
+services:
+  enable: 0
+  title: "What I Do"
+  subtitle: "my <b>Services</b>"
+  bg_title: "Services"
+
+  items:
+    - title: "Web Design &amp; Logo"
+      subtitle: "Web Development"
+      text: "Web designers craft the overall vision &amp; plan for a website layout. Professional logo development: Business, Company, or Personal."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "iOS &amp; Android"
+      subtitle: "Apps Development"
+      text: "Design Software applications to run on mobile devices. Modern and mobile-ready application that will help you reach all of your marketing."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Unity &amp; Unreal Engine"
+      subtitle: "Game Development"
+      text: "Creating games &amp; describes the design, development and release of a game. Developing unique mobile android and ios games."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Google Ads"
+      subtitle: "Advertising"
+      text: "Advertising services include: Google search result pages, gmails, YouTube and other websites participated in Google Ads program."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+    - title: "Sound Track"
+      subtitle: "Music Writing"
+      text: "Music copying, writing, creating, transcription and composition services."
+      button_label: "See Pricing"
+      button_link: "#pricing-section"
+
+### Portfolio [ portfolio ]
+#items generates from dir /_works/*
+portfolio:
+  enable: 0
+  title: "Portfolio"
+  subtitle: "my <b>Cases</b>"
+  bg_title: "Portfolio"
+  button:
+    link: "works/"
+    label: "View More"
+
+### Skills [ skills ]
+skills:
+  enable: 1
+  title: "Professional Skills"
+  subtitle: "my <b>Talent</b>"
+  bg_title: "Skills"
+
+  column1:
+    items:
+      - label: "English and Japanese" #0-10 progress in dots
+        text: "Capable of speaking good, listening, reading and writing documents in English and Japanese."
+        value: "85" #0-100 progress in %
+
+      - label: "Teamwork" #0-10 progress in dots
+        text: "Worked closely with colleagues to complete a project on time. Also, have experience in leading a small team, managing and assigning tasks to teammates."
+        value: "75" #0-100 progress in %
+
+  column2:
+    items:
+      - label: "Thinking and Creativity" #0-10 progress in dots
+        text: "As a creative and innovative thinker, I bring a unique perspective to problem-solving and idea generation. I possess the ability to think critically and analyze complex situations to identify effective solutions. I am skilled in brainstorming, ideation, and conceptualizing new ideas to achieve organizational objectives."
+        value: "75" #0-100 progress in %
+
+      - label: "Proactive" #0-10 progress in dots
+        text: "Additionally, I am proactive in identifying potential issues and taking the necessary steps to mitigate them. I have experience working in team environments, where I have demonstrated a reliable and dependable work ethic. I take my commitments seriously and strive to maintain open and transparent communication with my colleagues and superiors. "
+        value: "70" #0-100 progress in %
+
+  column3:
+    items:
+      - label: "Responsibility" #0-10 progress in dots
+        text: "Demonstrating responsibility is a crucial attribute in any professional setting, and I take pride in my ability to act responsibly in various situations. I understand that being responsible means taking ownership of my actions and being accountable for their outcomes. I have a track record of meeting deadlines and completing tasks to the best of my ability."
+        value: "90" #0-100 progress in %
+
+      - label: "Basic office computer skills" #0-10 progress in dots
+        text: "I possess the ability to effectively use various computer applications such as Microsoft Office Suite, Google Suite, among others. I have strong typing skills and the ability to navigate computer operating systems such as Windows. I am proficient in using email for communication, managing spreadsheets, and conducting online research."
+        value: "80" #0-100 progress in %
+
+### Resume [ resume ]
+resume:
+  enable: 1
+  title: "Resume"
+  subtitle: "my <b>Story</b>"
+  bg_title: "History"
+
+  education:
+    title: "Education"
+    items:
+      - name: "BUSINESS ENGLISH"
+        subname: "HUTECH UNIVERSITY"
+        period: "2011 - 2014"
+        text: "Bachelor's Degree in BUSINESS ENGLISH"
+
+      # - name: "Lviv National Academy of Arts"
+      #   subname: "Faculty of Design"
+      #   period: "2012 - 2014"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+      # - name: "IT Future"
+      #   subname: "High School"
+      #   period: "2010 - 2012"
+      #   text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+  experience:
+    title: "Experience"
+    items:
+      - name: "Freelance HR cum Administator"
+        subname: "IT Forward Vietnam"
+        period: "March 2020 - <b>Present</b>"
+        text: "
+        - Follow up insurance, timekeeping for staff officer.<br>
+        - Administer preparation work for new employee - working place - stationary.<br>
+        - Composing labor contracts; support the signing of labor contract."
+
+      - name: "HR - Administration Executive"
+        subname: "BUNKA SHUTTER CO., LTD"
+        period: "Aug 2018 - Jan 2020"
+        text: "
+        - Responsible for recruitment such as job posting, screen CV, interview (phone screen), offer letter, and candidate evaluation.<br>
+        - In charge of recruitment of many positions.<br>
+        - Follow up and take care of candidates in 02 months ofprobation.<br>
+        - Manage and develop fan page recruitment of the company.<br>
+        - Develop recruitment process for the company."
+      
+      - name: "HR - Administration Executive"
+        subname: "HICON GLOBAL., JSC"
+        period: "May 2016 - July 2018"
+        text: "
+        - Follow insurance, timekeeping for the staff officer.
+        - In charge of logistics administration in conferences, seminars, team building, visits...for staffs in the company.<br>
+        - Composing labor contracts; support the signing of labor contract.<br>
+        - Administer preparation work for new employee - working place - stationary.<br>
+        - Assist HR & Admin Manager in recruiting for new employees, creating job posting."
+
+      - name: "Receptionist cum Customer Service (Internship)"
+        subname: "HALOTIKI., JSC"
+        period: "Jan 2015 - Mar 2016"
+        text: "
+        - Welcome visitors in a warm and friendly manner.<br>
+        - Follow up the office functions - manage documents, forms, office stationary and maintenance activities, protection, machinery and equipment of the company.<br>
+        - Handling customer's complaints."
+
+
+### Testimonials [ testimonials ]
+testimonials:
+  enable: 0
+  title: "Testimonials"
+  subtitle: "what <b>Customers Say</b>"
+  bg_title: "Reviews"
+
+  items:
+    - image: "images/testimonials/testi4-2.jpg"
+      name: "Barbara Wilson"
+      role: "CEO Company"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    - image: "images/testimonials/testi4-1.jpg"
+      name: "Charlie Smith"
+      role: "Designer"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    - image: "images/testimonials/testi4-4.jpg"
+      name: "Roy Wang"
+      role: "Manager GYM"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    - image: "images/testimonials/testi4-3.jpg"
+      name: "Jennifer Smith"
+      role: "CEO &amp; Founder"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+    - image: "images/testimonials/testi4-5.jpg"
+      name: "Paul Freeman"
+      role: "Photographer"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
+### Pricing [ pricing ]
+pricing:
+  enable: 0
+  title: "Pricing"
+  subtitle: "my <b>Price Board</b>"
+  bg_title: "Pricing"
+
+  items:
+    - name: "Hourley Basis"
+      center: false
+      price: "39 <b>$</b>"
+      price_after: "Hour"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Web Development"
+          included: true
+        - value: "Advertising"
+          included: false
+        - value: "Photography"
+          included: false
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Freelancing"
+      center: true
+      label: "Popular"
+      price: "259 <b>$</b>"
+      price_after: "Week"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Web Development"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Photography"
+          included: false
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+    - name: "Full Time"
+      center: false
+      price: "1.249 <b>$</b>"
+      price_after: "Month"
+      text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida."
+      list:
+        - value: "Brand Design"
+          included: true
+        - value: "Web Development"
+          included: true
+        - value: "Advertising"
+          included: true
+        - value: "Photography"
+          included: true
+      button:
+        label: "Start Project"
+        link: "#contact-section"
+
+
+### Blog [ blog ]
+#items generates from dir /_posts/*
+blog:
+  enable: 0
+  title: "Latest Blog"
+  subtitle: "my <b>Life every day</b>"
+  bg_title: "Blog"
+  button:
+    label: "View Blog"
+    link: "blog/"
+
+
+### Contact [ contacts ]
+contacts:
+  enable: 1
+  title: "Contact Me"
+  subtitle: "Let’s <b>Talk About Ideas</b>"
+  bg_title: "Contact Me"
+
+  list:
+    - label: "Address"
+      icon: "far fa-map"
+      text: "Au Duong Lan street, District 8, Ho Chi Minh City"
+
+    - label: "Freelance"
+      icon: "far fa-user"
+      text: "Available Right Now"
+
+    - label: "Email"
+      icon: "far fa-envelope"
+      text: "phamngocmai3004@gmail.com"
+
+    - label: "Phone"
+      icon: "far fa-address-book"
+      text: "+84 973 115 602"
