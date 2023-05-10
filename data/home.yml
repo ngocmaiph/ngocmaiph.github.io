@@ -297,7 +297,7 @@ contacts:
   list:
     - label: "Address"
       icon: "far fa-map"
-      text: "Au Duong Lan street, District 8, Ho Chi Minh City"
+      text: "Le Hong Phong street, District 5, Ho Chi Minh City"
 
     - label: "Freelance"
       icon: "far fa-user"
